@@ -1,0 +1,18 @@
+BEGIN; --S1
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED; --S1
+SHOW TRANSACTION ISOLATION LEVEL; --S1
+
+BEGIN; --S2
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED; --S2
+SHOW TRANSACTION ISOLATION LEVEL; --S2
+
+SELECT * FROM pizzeria WHERE name = 'Pizza Hut'; --S1;
+
+UPDATE pizzeria SET rating = 3.6 WHERE name = 'Pizza Hut'; --S2
+COMMIT; --S2
+
+SELECT * FROM pizzeria WHERE name = 'Pizza Hut'; --S1;
+COMMIT; --S1
+SELECT * FROM pizzeria WHERE name = 'Pizza Hut'; --S1;
+
+SELECT * FROM pizzeria WHERE name = 'Pizza Hut'; --S2;
