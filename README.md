@@ -1,6 +1,8 @@
 # sql_intensive
 
-### Учебный проект. Интенсив по SQL.
+### Учебный проект. Интенсив по SQL.  
+![PostgreSQL](https://github.com/GTimsan/sql_intensive/blob/main/src/elephant.png)    
+
 
 #### Description:
 Day_00. [Relational Data Model and SQL](https://github.com/GTimsan/Linux_Monitoring_2/tree/main/src/00).  
