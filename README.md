@@ -5,7 +5,7 @@
 
 
 #### Description:
-Day_00. [Relational Data Model and SQL](https://github.com/GTimsan/Linux_Monitoring_2/tree/main/src/00).  
+Day_00. [Relational Data Model and SQL](https://github.com/GTimsan/sql_intensive/tree/main/src/00).  
   >Resume: Today you will see how relational model works and how to get needed data based on basic constructions of  SQL   
 
 Day_01. [First steps working with sets and JOINs in SQL](https://github.com/GTimsan/Linux_Monitoring_2/tree/main/src/01).  
