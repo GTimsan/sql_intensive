@@ -35,8 +35,8 @@ Day_08. [Isolation is one of ACID properties](https://github.com/GTimsan/Linux_M
 Day_09. [RDBMS is not just a tables](https://github.com/GTimsan/Linux_Monitoring_2/tree/main/src/09).  
   > Resume: Today you will see how to create and use functional blocks in Databases.  
 
-Day_10_bonus. [Traveling Salesman Problem](https://github.com/GTimsan/Linux_Monitoring_2/tree/main/src/10).  
+Day_10_bonus. [Traveling Salesman Problem](https://github.com/GTimsan/sql_intensive/tree/main/src/10).  
   > Resume: Today you will implementing a quick solution on SQL to achieve results of Traveling Salesman Problem.  
 
-Day_11_bonus. [Data Warehouse](https://github.com/GTimsan/Linux_Monitoring_2/tree/main/src/11).  
+Day_11_bonus. [Data Warehouse](https://github.com/GTimsan/sql_intensive/tree/main/src/11).  
   > Resume: Today you will know what DWH is and how to create a first ETL process.  
